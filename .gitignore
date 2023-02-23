@@ -1,0 +1,8 @@
+__pycache__/*
+.idea/*
+models/*
+predictions/*
+data/*
+.ipynb_checkpoints/*
+out/*
+
