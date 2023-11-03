@@ -28,6 +28,7 @@ In Replica, the Bigram Language Model, essentially a 'neural net' in structure, 
 next character given a previous character, and it follows that in implementation.
 
 Bigram Diagram:
+
 <img src="https://github.com/ReshiAdavan/Replica/blob/master/imgs/Bigram.PNG" />
 
 #### Bag of Words (BoW)
@@ -43,6 +44,7 @@ Here's the general procedure:
 - Vector Space Model (VSM)
 
 A following example:
+
 <img src="https://github.com/ReshiAdavan/Replica/blob/master/imgs/BoW.PNG" />
 
 BoW is straightforward and easy to implement, making it a good starting point for text analysis. However, it has several limitations:
@@ -63,6 +65,7 @@ Architecture: RNNs are designed for processing sequential data. They have a simp
 How they work: RNNs process sequences one element at a time, and the hidden state at each time step depends on the input at that time step and the previous hidden state. This enables them to capture dependencies within sequential data. However, standard RNNs have problems with vanishing and exploding gradients.
 
 RNN Diagram:
+
 <img src="https://github.com/ReshiAdavan/Replica/blob/master/imgs/RNN.PNG" />
 
 Convolutional Neural Networks (CNNs):
@@ -74,14 +77,16 @@ Architecture: GRUs are a type of RNN variant designed to address some of the iss
 How they work: The update gate controls how much of the previous hidden state should be combined with the current input, and the reset gate controls how much of the previous hidden state should be forgotten. GRUs can maintain information over longer sequences without suffering from vanishing gradients to the same extent as traditional RNNs.
 
 GRU Diagrams:
-<img src="https://github.com/ReshiAdavan/Replica/blob/master/imgs/GRU_1.PNG" />
-<img src="https://github.com/ReshiAdavan/Replica/blob/master/imgs/GRU_2.PNG" />
+
+<img src="https://github.com/ReshiAdavan/Replica/blob/master/imgs/GRUs_1.PNG" />
+<img src="https://github.com/ReshiAdavan/Replica/blob/master/imgs/GRUs_2.PNG" />
 
 Long Short-Term Memory (LSTM) networks:
 Architecture: LSTMs are another RNN variant with a more complex architecture compared to traditional RNNs. They have three gates: input gate, forget gate, and output gate, which control the flow of information through the network. LSTMs also have a cell state in addition to the hidden state.
 How they work: LSTMs are capable of capturing long-term dependencies in sequences and mitigating the vanishing gradient problem by regulating the flow of information. The input gate controls what information to store in the cell state, the forget gate controls what to forget, and the output gate controls what information to output from the cell state.
 
 LSTM Diagrams:
+
 <img src="https://github.com/ReshiAdavan/Replica/blob/master/imgs/LSTM_1.PNG" />
 <img src="https://github.com/ReshiAdavan/Replica/blob/master/imgs/LSTM_2.PNG" />
 
@@ -105,6 +110,7 @@ The transformer architecture in Replica is near equivalent in implementation str
 I also create a vanilla multi-head masked self-attention layer with a projection at the end as part of the structure, along with the transformer block and the language model, aka our GPT2.0.
 
 Transformer Diagrams:
+
 <img src="https://github.com/ReshiAdavan/Replica/blob/master/imgs/Transformer_1.PNG" />
 <img src="https://github.com/ReshiAdavan/Replica/blob/master/imgs/Transformer_2.PNG" />
 
@@ -144,6 +150,7 @@ For example:
 It is like creating lego building blocks that connect together in such a way where you can feed data between said layers and receive output because of the hierarchical model.
 
 WaveNet Diagram:
+
 <img src="https://github.com/ReshiAdavan/Replica/blob/master/imgs/WaveNet.PNG" />
 
-If you made it this far, congrats! That concludes Replica's README
+If you made it this far, congrats! That concludes Replica's README.

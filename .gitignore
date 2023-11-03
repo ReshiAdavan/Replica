@@ -5,4 +5,6 @@ predictions/*
 data/*
 .ipynb_checkpoints/*
 out/*
+Out/*
+Python/out/*
 
