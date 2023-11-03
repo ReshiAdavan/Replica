@@ -14,6 +14,12 @@ FYI: It does not accept all types of data (i.e mp3 files, images, pixels, etc)
 - Frameworks/Libraries: PyTorch
 - Architectures: Transformers, RNNs/CNNs/GRUs, Bigrams, BoWs, GPT
 
+### Use It Yourself
+
+It is as simple as cloning, installing the right python dependencies as prompted, and running the Python file in any IDE with the right interpreter.
+
+The Juypter Notebooks follow the above, just run the entire file or any cell given the right IDE and environment.
+
 ### Architectures (In Detail)
 
 It is for those who are are curious/interested, in the underlying architecture of each of the models used in Replica.
