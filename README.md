@@ -13,3 +13,9 @@ FYI: It does not accept all types of data (i.e mp3 files, images, pixels, etc)
 - Languages: Python
 - Frameworks/Libraries: PyTorch
 - Architectures: Transformers, RNNs/CNNs/GRUs, Bigrams, BoWs, GPT
+
+### Architectures (In Detail)
+
+It is for those who are are curious/interested, in the underlying architecture of each of the models used in Replica.
+
+(TBD)
