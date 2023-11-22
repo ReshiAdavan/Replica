@@ -1,6 +1,6 @@
 # Replica
 
-Replica is a data generation tool that leverages several machine learning architectures, including a ground-up implementaiton of the GPT-2 model, to generate data similar to data that is passed to the application as input.
+Replica is a data generation tool that leverages several machine learning architectures, including a ground-up implementation of the GPT-2 model, to generate data similar to data that is passed to the application as input.
 
 ### Inspiration
 
